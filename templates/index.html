@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>HealthFluent</title>
+    <link rel="shortcut icon" type="image/png" href="static/assets/img/logo.png"/>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{url_for('static', filename='assets/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='assets/vendor/aos/aos.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{url_for('static', filename='assets/css/style.css')}}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Medicio - v4.7.0
+  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+      <div class="align-items-center d-none d-md-flex">
+      </div>
+      <div class="d-flex align-items-center">
+        <i class="bi bi-phone"></i> Email us now at healthfluent123@gmail.com
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center"/>
+    
+      <a href="index.html" class="logo me-auto"
+         style="width:100%" alt=""></a> 
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(static/assets/img/logo.png)">
+           <div class="container">
+            <h2>Welcome to <span>HealthFluent</span></h2>
+            <p>We are an organization that aims to help you schedule appointments, be educated about health conditions you may have, and more!</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(static/assets/img/logo.png)">
+          <div class="container">
+            <h2>Get Started</h2>
+            <p>We are an organization that aims to help you schedule appointments, be educated about health conditions you may have, and more!</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(static/assets/img/logo.png)">
+          <div class="container">
+            <h2>Equal healthcare for all</h2>
+            <p>We are an organization that aims to help you schedule appointments, be educated about health conditions you may have, and more!</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="fas fa-heartbeat"></i></div>
+              <h4 class="title"><a href="">Race/Ethnicity</a></h4>
+              <p class="description">In a number of industrialized/developed countries across the world, majorities are given first preference when it comes to healthcare, while racial minorities are given the least preference. This often results in low quality service.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="fas fa-pills"></i></div>
+              <h4 class="title"><a href="">Gender Identity/Sexual Orientation</a></h4>
+              <p class="description">According to BMC Public Health, a number of sexual minorities who do not classify as "heterosexual" experience discrimination, stigma, and stress due to a lack of personal, family, and social acceptance.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="fas fa-thermometer"></i></div>
+              <h4 class="title"><a href="">Class/Income</a></h4>
+              <p class="description">People of low income are not given opportunities for high quality healthcare due to costs and affordability. Additionally, due to the COVID 19 pandemic, many individuals have lost their position in the workforce and are struggling in unemployment. This has also reduced their chances of receiving a satisfactory health insurance and beneficial health care.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="fas fa-dna"></i></div>
+              <h4 class="title"><a href="">Region</a></h4>
+              <p class="description">Many areas are affected more by toxic pollutants and diseases than others, and this may even be within nations. That is why healthcare is offered more in some places than others, and there are many places to seek help that individuals are not educated about.</p>
+            </div>
+          </div>
+            <p>Therefore, here at HealthFluent, we aim to change this by offering equal chances for booking appointments regardless of ethnicity, sexual orientation and gender identity, and educating the public of health providers in their region. Our services provide locations that are suitable for the users' income.</p>
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>In an emergency? Need help now?</h3>
+          <p> Fill out the form below to create an appointment and our team will ensure to reach out to you as soon as possible. If it is an imediate emergency, go to the emergency room at your local hospital or reach out to helplines for immediate service.  </p>
+          <a class="cta-btn scrollto" href="#appointment">Make an Appointment</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+          <p>At HealthFluent, our goal is to provide information regarding your symptoms, and help you book appointments based on your region in a fair and impartial manner.</p>
+        </div>
+
+        
+
+     
+    </section><!-- End About Us Section -->
+
+ 
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
+            <div class="icon-box mt-5 mt-lg-0">
+              <i class="bx bx-receipt"></i>
+              <h4>Prithvi</h4>
+              <p>I'm Prithvi, a radiologist. I aim to scan and treat diseases using radiology procedures such as X-rays, magnetic resonance imaging, ultrasound, and more. Our organization allows you to find out information about health conditions you may potentially possess, and then reaching out to patients with helping hands!</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Saryu</h4>
+              <p>Hi! I'm Saryu, a dietician who joined HealthFluent with the purpose of helping others balance their diet in order to prevent health conditions such as heart disease, stroke, and type 2 diabetes. We hope you enjoy this website that we programmed for you to diagnose your symptoms and book appointments at our clinic located by region.</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-images"></i>
+              <h4>Shivam</h4>
+              <p>Hello! I'm Shivam, a neurologist who, for a long time, has been interested in the organ that controls our every action.. the brain. As a member of HealthFluent, I aim to help you, the users of this website, schedule your appointments in a timely manner and help you prevent epilepsy, stroke, multiple sclerosis (MS), Parkinson's disease, and more.</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-shield"></i>
+              <h4>Manha</h4>
+              <p>Hi! I'm Manha, a cardiologist at HealthFluent. My job is to eliminate developing heart disease, heart attack, or stroke in patients. At HealthFluent, we aim to guide users to battle their rising health conditions with our user-friendly website interface. Take a look at the services section below to explore your options on this website.</p>
+            </div>
+          </div>
+          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/features.jpg");' data-aos="zoom-in"></div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Below are the different services that we provide at HealthFluent.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon"><i class="fas fa-heartbeat"></i></div>
+            <h4 class="title"><a href="">Appointment Scheduling by Region</a></h4>
+            <p class="description">We have a map functionality for users to book appointments related to their health conditions, and this includes recommending doctors from the necessary fields of medicine.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon"><i class="fas fa-pills"></i></div>
+            <h4 class="title"><a href="">Recommending tips for health conditions</a></h4>
+            <p class="description">By answering the questions that we provide, you will have the option to view our recommended safety tips after being diagnosed for your condition.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon"><i class="fas fa-hospital-user"></i></div>
+            <h4 class="title"><a href="">Contact</a></h4>
+            <p class="description">Our email, healthfluent123@gmail.com, is always available for contacting in need of communication or assistance. </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Appointment Section ======= -->
+    <section id="appointment" class="appointment section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Make an Appointment</h2>
+          <p>Please fill out all provided questions to ensure that your HealthFluent experience is as catered as possible. </p>
+        </div>
+
+          <div class="row">
+            <div class="col-md-4 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required>
+            </br>
+          
+          </div>
+          <div class="row">
+            <div class="col-md-4 form-group mt-3">
+              <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" required>
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <select name="department" id="department" class="form-select">
+                <option value="">Select Department</option>
+                <option value="Department 1">Family Care</option>
+                <option value="Department 2">Cardiology</option>
+                <option value="Department 3">Radiology and Ultrasound </option>
+                <option value="Department 4">Dietician and Nutrition </option>
+                <option value="Department 5">Neurology</option>
+                <option value="Department 6">Other </option>
+                <option value="Department 7">Not sure </option>
+
+              </select>
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <select name="doctor" id="doctor" class="form-select">
+                <option value="">Select Income Range</option>
+                <option value="Doctor 1">Below $30K</option>
+                <option value="Doctor 2">$30K - $60K </option>
+                <option value="Doctor 3">$60K - $90K </option>
+                <option value="Doctor 4">$90K or 
+                  higher </option>
+              </select>
+            </div>
+          </div>
+
+        </div>
+         </br>
+           <div class="row">
+            <div class="col-md-4 form-group mt-3">
+              <select name="doctor" id="doctor" class="form-select">
+                <option value="">Setting</option>
+                <option value="Doctor 1">Remote</option>
+                <option value="Doctor 2">In-Person </option>
+              </select>
+            </div>
+             
+        <div class="col-md-4 form-group mt-3">
+              <input type="tel" class="form-control" name="postalcode" id="postalcode" placeholder="Postal Code" required>
+            </div>
+          
+
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Describe your condition..."></textarea>
+          </div>
+          <div class="my-3">
+            <div class="error-message"></div>
+            <div class="sent-message"></div>
+          </div>
+          <form method="POST"<div class="text-center"><button class="btn btn-primary" type="submit" onclick="Function()">Make an Appointment</button></div>
+              <p id="demo"></p>
+              <script>
+                  function Function() {
+                      alert("Email sent for location, date, and type of doctor visit!")
+                  }
+              </script>
+        </form> 
+
+      </div>
+    </section><!-- End Appointment Section -->
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+                  <h4>Cardiology</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                  <h4>Neurology</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                  <h4>Radiology</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                  <h4>Dietetics</h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-8">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <h3>Cardiology</h3>
+                <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
+                <p>The field that requires treating cardiovascular diseases.                   </p>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <h3>Neurology</h3>
+                <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
+                <p>The field that studies treatment of brain and spinal chord conditions.</p>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <h3>Radiology</h3>
+                <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
+                <p>The field that specializes in diagnosing diseases and health conditions using medical imaging.</p>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <h3>Dietetics</h3>
+                <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
+                <p>A field of science that promotes nutrition and dietary balance in one's life.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Departments Section -->
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Manha</h4>
+                <span>Cardiologist</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Shivam</h4>
+                <span>Neurologist</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Prithvi</h4>
+                <span>Radiologist</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Saryu</h4>
+                <span>Dietician</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Doctors Section -->
+
+    
+
+   
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Filling out our form, patients will be contacted as soon as possible by our team. To reach out to us personally, email us at at healthfluent123@gmail.com </p>
+        </div>
+
+      </div>
+
+      <div>
+      </div>
+
+      <div class="container">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-6">
+
+            
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>healthfluent123@gmail.com</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>HealthFluent</h3>
+              <p>
+                <strong>Email:</strong> healthfluent123@gmail.com<br>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a
+href="#appointment">Make an Appointment</a></li>
+            </ul>
+          </div>
+
+     
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Medicio</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{{url_for('static', filename='assets/vendor/purecounter/purecounter.js')}}"></script>
+  <script src="{{url_for('static', filename='assets/vendor/aos/aos.js')}}"></script>
+  <script src="{{url_for('static', filename='assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{url_for('static', filename='assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+  <script src="{{url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+  <script src="{{url_for('static', filename='assets/vendor/php-email-form/validate.js')}}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{url_for('static', filename='assets/js/main.js')}}"></script>
+
+</body>
+
+</html>
